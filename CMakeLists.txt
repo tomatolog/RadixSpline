@@ -8,7 +8,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -g3 -Wall -Wextra")
 find_package(Threads REQUIRED)
 set(THREADS_PREFER_PTHREAD_FLAG ON)
 
-include("${CMAKE_SOURCE_DIR}/cmake_modules/googletest.cmake")
+#include("${CMAKE_SOURCE_DIR}/cmake_modules/googletest.cmake")
 
 include_directories(
         ${GTEST_INCLUDE_DIR}

@@ -5,6 +5,7 @@
 #include <cmath>
 
 #include "common.h"
+#include "ctz_clz.h"
 #include "radix_spline.h"
 
 namespace rs {
