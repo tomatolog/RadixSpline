@@ -20,8 +20,8 @@ set(EXAMPLE_FILES example.cc)
 set(BENCH_FILES bench.cc)
 file(GLOB TEST_CC "test/*_test.cc")
 
-add_executable(example ${INCLUDE_H} ${EXAMPLE_FILES})
-add_executable(bench ${INCLUDE_H} ${BENCH_FILES})
+#add_executable(example ${INCLUDE_H} ${EXAMPLE_FILES})
+#add_executable(bench ${INCLUDE_H} ${BENCH_FILES})
 
-add_executable(tester ${TEST_CC})
-target_link_libraries(tester gtest gtest_main Threads::Threads)
+#add_executable(tester ${TEST_CC})
+#target_link_libraries(tester gtest gtest_main Threads::Threads)
